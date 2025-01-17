@@ -1440,3 +1440,43 @@ button {
       font-size: 12px;
     }
   }
+
+ .toc-container {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            max-width: 400px;
+            font-family: Arial, sans-serif;
+            text-align: left;
+        }
+
+        .toc-header {
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: none;
+        }
+
+        .toc-list li {
+            margin-bottom: 15px;
+        }
+
+        .toc-list a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        .toc-list a:hover {
+            text-decoration: underline;
+        }
