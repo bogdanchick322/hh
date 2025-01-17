@@ -1,0 +1,40 @@
+
+# Redirect from http to https and remove www
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.history-hunters\.pl [NC]
+RewriteRule ^(.*)$ https://history-hunters.pl/$1 [L,R=301]
+
+# Specific redirects
+Redirect 301 /go/ https://referencemen.net/ktVmDV?c=0091cqff47fpz-c797028965694cc3
+Redirect 301 /144/ https://history-hunters.pl/
+Redirect 301 /palac-sybilli-w-szzodrem/ https://history-hunters.pl/
+Redirect 301 /schron-na-stadionie-miejskim-w-olesnicy/ https://history-hunters.pl/
+Redirect 301 /palac- https://history-hunters.pl/
+Redirect 301 /nawiedzone-schody- https://history-hunters.pl/
+Redirect 301 /ballada-o-zapomnianym-schronie/ https://history-hunters.pl/
+Redirect 301 /tajemnica-palacu-minkowskie/ https://history-hunters.pl/
+Redirect 301 /czarna-dama-zamku-janowcu/ https://history-hunters.pl/
+Redirect 301 /mauzoleum-guttlerow-w-zlotym-stoku/ https://history-hunters.pl/
+Redirect 301 /palac-w-siedlcu-trzebnickim/ https://history-hunters.pl/
+Redirect 301 /ballada-o-zapomnianym-schronie/ https://history-hunters.pl/
+Redirect 301 /dwor-w-zarzysku/ https://history-hunters.pl/
+Redirect 301 /glinka-palac-/ https://history-hunters.pl/
+Redirect 301 /gold-rush-po-/ https://history-hunters.pl/
+Redirect 301 /gold-rush-po-minkowsku/ https://history-hunters.pl/
+Redirect 301 /mauzoleum-von-danckelmann-w-piotrkowicach/ https://history-hunters.pl/
+Redirect 301 /miedzy-mitem-a-/ https://history-hunters.pl/
+Redirect 301 /nawiedzone-schody-/ https://history-hunters.pl/
+Redirect 301 /palac-/ https://history-hunters.pl/
+Redirect 301 /palac-pagow/ https://history-hunters.pl/
+Redirect 301 /palac-sybilli-w/ https://history-hunters.pl/
+Redirect 301 /palac-sybilli-w-szzodrem/ https://history-hunters.pl/
+Redirect 301 /palac-w-sulowie/ https://history-hunters.pl/
+Redirect 301 /palac-w-wierzbnej/ https://history-hunters.pl/
+Redirect 301 /schron-na-stadionie-miejskim-w-olesnicy/ https://history-hunters.pl/
+Redirect 301 /schrony-na-zielonych-ogrodachw-olesnicy/ https://history-hunters.pl/
+Redirect 301 /slad-w-cegle-zapisany/ https://history-hunters.pl/
+Redirect 301 /tajemnica-palacu-/ https://history-hunters.pl/
+Redirect 301 /tajemnica-palacu-minkowskie/ https://history-hunters.pl/
+Redirect 301 /zloty-interes-czyli-zloto-dla-naiwnych/ https://history-hunters.pl/
+Redirect 301 /miedzy-mitem-a-prawda-/ https://history-hunters.pl/
